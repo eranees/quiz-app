@@ -1,3 +1,4 @@
+// Questions
 const questions = [
   {
     id: "0",
@@ -12,12 +13,55 @@ const questions = [
     correctAns: "%"
   },
   {
-    id: "1",
+    id: "2",
     question: "What is the symbol used for the division operator in C?",
     possibleAns: ["%", "/", "-"],
     correctAns: "/"
+  },
+  {
+    id: "3",
+    question: "Which keyword is used to exit from a loop in C?",
+    possibleAns: ["break", "exit", "stop"],
+    correctAns: "break"
+  },
+  {
+    id: "4",
+    question: "Which header file is required to use the 'printf' function in C?",
+    possibleAns: ["iostream", "stdio.h", "stdlib.h"],
+    correctAns: "stdio.h"
+  },
+  {
+    id: "5",
+    question: "What is the maximum value that an 'int' data type can hold in C?",
+    possibleAns: ["32767", "2147483647", "65535"],
+    correctAns: "2147483647"
+  },
+  {
+    id: "6",
+    question: "Which operator is used to access the address of a variable in C?",
+    possibleAns: ["&", "*", "#"],
+    correctAns: "&"
+  },
+  {
+    id: "7",
+    question: "In C, which keyword is used to define an 'if' statement?",
+    possibleAns: ["case", "then", "if"],
+    correctAns: "if"
+  },
+  {
+    id: "8",
+    question: "What is the size of 'float' data type in C?",
+    possibleAns: ["4 bytes", "8 bytes", "2 bytes"],
+    correctAns: "4 bytes"
+  },
+  {
+    id: "9",
+    question: "Which function is used to read a character from the keyboard in C?",
+    possibleAns: ["scanf()", "gets()", "getch()"],
+    correctAns: "getch()"
   }
-]
+];
+
 let index = 0
 let correctQns = 0
 let incorrectQns = 0
